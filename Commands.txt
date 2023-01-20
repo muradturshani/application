@@ -32,3 +32,18 @@ Changes to be committed:
         new file:   FileA.txt
         new file:   FileAB.txt
 
+PS C:\Working folder> git commit -m "this is the intial commit"
+[master (root-commit) df9472c] this is the intial commit
+ 6 files changed, 44 insertions(+)
+ create mode 100644 .vs/VSWorkspaceState.json
+ create mode 100644 .vs/Working folder/v17/.wsuo
+ create mode 100644 .vs/slnx.sqlite
+ create mode 100644 Commands.txt
+ create mode 100644 FileA.txt
+ create mode 100644 FileAB.txt
+PS C:\Working folder> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Working folder> 
+
+
