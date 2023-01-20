@@ -47,3 +47,16 @@ nothing to commit, working tree clean
 PS C:\Working folder> 
 
 
+PS C:\Working folder> git log
+commit cfb9ab1950570ff6cd06d67050fce0a72bf94a01 (HEAD -> master)
+Author: Mourad <Mourad.torsha@gmail.com>
+Date:   Fri Jan 20 16:32:01 2023 +0200
+
+    v2
+
+commit df9472c80e3fbbed941e6d4f72b510045ec1ce33
+Author: Mourad <Mourad.torsha@gmail.com>
+Date:   Fri Jan 20 16:28:24 2023 +0200
+
+    this is the intial commit
+
