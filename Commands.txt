@@ -1,0 +1,34 @@
+PS C:\Working folder> dir
+
+
+    Directory: C:\Working folder
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/20/2023   4:16 PM                .vs
+-a----         1/20/2023   4:16 PM              0 FileA.txt
+-a----         1/20/2023   4:16 PM              0 FileABtxt
+
+
+PS C:\Working folder> Git init
+Initialized empty Git repository in C:/Working folder/.git/
+PS C:\Working folder> git config user.name "Mourad"
+PS C:\Working folder> git config user.email "Mourad.torsha@gmail.com"
+
+
+PS C:\Working folder> git add .
+PS C:\Working folder> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vs/VSWorkspaceState.json   
+        new file:   .vs/Working folder/v17/.wsuo
+        new file:   .vs/slnx.sqlite
+        new file:   Commands.txt
+        new file:   FileA.txt
+        new file:   FileAB.txt
+
